@@ -8,9 +8,9 @@ app.use(cors());
 
 const pool = new Pool({
   user: 'postgres',
-  host: 'mydatabse.cjmvaliwhau7.ap-south-1.rds.amazonaws.com',
+  host: 'localhost',
   database: 'MyDatabase',
-  password: '12345678',
+  password: 'anshul',
   port: 5432,
 });
 
